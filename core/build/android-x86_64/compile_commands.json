@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/core/build/android-x86_64/whisper.cpp",
+  "command": "/Users/drasticactions/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DGGML_BUILD -DGGML_SHARED -DWHISPER_BUILD -DWHISPER_SHARED -Dwhisper_EXPORTS -I/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/. -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions             -Wall                                       -Wextra                                     -Wpedantic                                  -Wshadow                                    -Wcast-qual                                 -Wstrict-prototypes                         -Wpointer-arith                             -Wno-unused-function                     -Werror=vla -mavx -mavx2 -mfma -mf16c -O3 -DNDEBUG -fPIC -o CMakeFiles/whisper.dir/ggml.c.o -c /Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/ggml.c",
+  "file": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/ggml.c",
+  "output": "whisper.cpp/CMakeFiles/whisper.dir/ggml.c.o"
+},
+{
+  "directory": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/core/build/android-x86_64/whisper.cpp",
+  "command": "/Users/drasticactions/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 -DGGML_BUILD -DGGML_SHARED -DWHISPER_BUILD -DWHISPER_SHARED -Dwhisper_EXPORTS -I/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/. -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++             -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/whisper.dir/whisper.cpp.o -c /Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/whisper.cpp",
+  "file": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/whisper.cpp",
+  "output": "whisper.cpp/CMakeFiles/whisper.dir/whisper.cpp.o"
+}
+]

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/coreml/build/ios/whisper.cpp",
+  "command": "/Applications/Xcode_14.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -Dwhisper_coreml_EXPORTS -I/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode_14.3.0.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -fPIC -fobjc-arc -o CMakeFiles/whisper.coreml.dir/coreml/whisper-encoder.mm.o -c /Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/coreml/whisper-encoder.mm",
+  "file": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/coreml/whisper-encoder.mm",
+  "output": "whisper.cpp/CMakeFiles/whisper.coreml.dir/coreml/whisper-encoder.mm.o"
+},
+{
+  "directory": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/coreml/build/ios/whisper.cpp",
+  "command": "/Applications/Xcode_14.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Dwhisper_coreml_EXPORTS -I/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wshadow                                    -Wcast-qual                                 -Wstrict-prototypes                         -Wpointer-arith                             -Wno-unused-function                     -Werror=vla -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode_14.3.0.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -fPIC -fobjc-arc -o CMakeFiles/whisper.coreml.dir/coreml/whisper-encoder-impl.m.o -c /Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/coreml/whisper-encoder-impl.m",
+  "file": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/coreml/whisper-encoder-impl.m",
+  "output": "whisper.cpp/CMakeFiles/whisper.coreml.dir/coreml/whisper-encoder-impl.m.o"
+},
+{
+  "directory": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/coreml/build/ios/whisper.cpp",
+  "command": "/Applications/Xcode_14.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DGGML_BUILD -DGGML_SHARED -DGGML_USE_ACCELERATE -DWHISPER_BUILD -DWHISPER_SHARED -DWHISPER_USE_COREML -Dwhisper_EXPORTS -I/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wshadow                                    -Wcast-qual                                 -Wstrict-prototypes                         -Wpointer-arith                             -Wno-unused-function                     -Werror=vla -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode_14.3.0.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -fPIC -o CMakeFiles/whisper.dir/ggml.c.o -c /Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/ggml.c",
+  "file": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/ggml.c",
+  "output": "whisper.cpp/CMakeFiles/whisper.dir/ggml.c.o"
+},
+{
+  "directory": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/coreml/build/ios/whisper.cpp",
+  "command": "/Applications/Xcode_14.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DGGML_BUILD -DGGML_SHARED -DGGML_USE_ACCELERATE -DWHISPER_BUILD -DWHISPER_SHARED -DWHISPER_USE_COREML -Dwhisper_EXPORTS -I/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode_14.3.0.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -fPIC -o CMakeFiles/whisper.dir/whisper.cpp.o -c /Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/whisper.cpp",
+  "file": "/Users/drasticactions/Developer/Personal/Libraries/Whisper.net.Runtimes/whisper.cpp/whisper.cpp",
+  "output": "whisper.cpp/CMakeFiles/whisper.dir/whisper.cpp.o"
+}
+]

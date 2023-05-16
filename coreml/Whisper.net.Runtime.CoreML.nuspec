@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Drastic.Whisper.net.Runtime.CoreML</id>
+    <title>Drastic.Whisper.Net.Runtime.CoreML</title>
+    <version>1.4.1</version>
+    <authors>Drastic Actions</authors>
+    <owners>Drastic Actions</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Experimental Cross-platform dotnet runtimes for Whisper, CoreML Enabled.</summary>
+    <description>Whisper.net.Runtime.CoreML contains the native runtime libraries to enable Whisper on .NET Apple apps with Whisper.Net.</description>
+    <tags>whisper;ios;macos;tvos;coreml</tags>
+    <projectUrl>https://github.com/drasticactions/whisper.net.runtimes</projectUrl>
+    <license type="expression">MIT</license>
+  </metadata>
+  <files>
+    <file src="Whisper.net.Runtime.CoreML\**" target="build"/>
+  </files>
+</package>
