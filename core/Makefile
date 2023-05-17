@@ -29,21 +29,24 @@ linux: linux_x64 linux_arm64 linux_arm
 
 linux_x64:
 	rm -rf build/linux-x64
-	cmake -S . -B build/linux-x64
+	cmake -DCMAKE_TOOLCHAIN_FILE=../Toolchain-linux-x64-musl.cmake -S . -B build/linux-x64
 	cmake --build build/linux-x64 --config $(BUILD_TYPE)
-	cp build/linux-x64/whisper.cpp/libwhisper.so ./Whisper.net.Runtime/runtimes/linux-x64/whisper.so
+	mkdir -p Whisper.net.Runtime/linux-x64
+	cp build/linux-x64/whisper.cpp/libwhisper.so ./Whisper.net.Runtime/linux-x64/whisper.so
 
 linux_arm64:
 	rm -rf build/linux-arm64
-	cmake -S . -B build/linux-arm64
+	cmake -DCMAKE_TOOLCHAIN_FILE=../Toolchain-linux-arm64-musl.cmake -S . -B build/linux-arm64
 	cmake --build build/linux-arm64 --config $(BUILD_TYPE)
-	cp build/linux-arm64/whisper.cpp/libwhisper.so ./Whisper.net.Runtime/runtimes/linux-arm64/whisper.so
+	mkdir -p Whisper.net.Runtime/linux-arm64
+	cp build/linux-arm64/whisper.cpp/libwhisper.so ./Whisper.net.Runtime/linux-arm64/whisper.so
 
 linux_arm:
 	rm -rf build/linux-arm
 	cmake -S . -B build/linux-arm
 	cmake --build build/linux-arm --config $(BUILD_TYPE)
-	cp build/linux-arm/whisper.cpp/libwhisper.so ./Whisper.net.Runtime/runtimes/linux-arm/whisper.so
+	mkdir -p Whisper.net.Runtime/linux-arm
+	cp build/linux-arm/whisper.cpp/libwhisper.so ./Whisper.net.Runtime/linux-arm/whisper.so
 
 macos:
 	rm -rf build/macos
