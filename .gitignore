@@ -356,3 +356,8 @@ MigrationBackup/
 /build
 /runtimes
 /nupkgs
+
+/src/build
+build/
+runtimes/
+nupkgs/
