@@ -11,7 +11,7 @@ nuget:
 	mkdir -p nupkgs
 	nuget pack Whisper.net.Runtime.CoreML.nuspec -Version $(VERSION) -OutputDirectory ./nupkgs
 
-apple: macos ios ios_simulator maccatalyst tvos_simulator tvos
+apple: macos ios ios_simulator maccatalyst tvos_simulator tvos lipo
 
 macos:
 	rm -rf build/macos
