@@ -85,13 +85,13 @@
     </ItemGroup>
     <ItemGroup Condition="$(TargetFramework.Contains('-')) == false ">
         <!-- If using default runtime, include the split macOS libs rather that the lipoed version -->
-        <None Visible="false" Include="$(MSBuildThisFileDirectory)osx-x64\whisper.dylib">
+        <None Visible="false" Include="$(MSBuildThisFileDirectory)macos\libwhisper.dylib">
             <Pack>true</Pack>
             <PackageCopyToOutput>true</PackageCopyToOutput>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <TargetPath>runtimes/osx-x64/whisper.dylib</TargetPath>
         </None>
-         <None Visible="false" Include="$(MSBuildThisFileDirectory)osx-arm64\whisper.dylib">
+         <None Visible="false" Include="$(MSBuildThisFileDirectory)macos\libwhisper.dylib">
             <Pack>true</Pack>
             <PackageCopyToOutput>true</PackageCopyToOutput>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -108,12 +108,6 @@
             <PackageCopyToOutput>true</PackageCopyToOutput>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <TargetPath>runtimes/linux-x64/whisper.so</TargetPath>
-        </None>
-        <None Visible="false" Include="$(MSBuildThisFileDirectory)linux-arm\whisper.so">
-            <Pack>true</Pack>
-            <PackageCopyToOutput>true</PackageCopyToOutput>
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <TargetPath>runtimes/linux-arm/whisper.so</TargetPath>
         </None>
     </ItemGroup>
 </Project>
