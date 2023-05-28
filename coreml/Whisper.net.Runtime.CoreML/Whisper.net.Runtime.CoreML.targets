@@ -83,4 +83,19 @@
             <TargetPath>libwhisper.coreml.dylib</TargetPath>
         </None>
     </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework.Contains('-')) == false ">
+        <!-- If using default runtime, include the split macOS libs rather that the lipoed version -->
+        <None Visible="false" Include="$(MSBuildThisFileDirectory)macos\libwhisper.dylib">
+            <Pack>true</Pack>
+            <PackageCopyToOutput>true</PackageCopyToOutput>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>runtimes/osx-x64/whisper.dylib</TargetPath>
+        </None>
+         <None Visible="false" Include="$(MSBuildThisFileDirectory)macos\libwhisper.dylib">
+            <Pack>true</Pack>
+            <PackageCopyToOutput>true</PackageCopyToOutput>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>runtimes/osx-arm64/whisper.dylib</TargetPath>
+        </None>
+    </ItemGroup>
 </Project>
